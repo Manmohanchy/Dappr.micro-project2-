@@ -1,6 +1,4 @@
 
-
-
 .navbar{
     margin: 0;
     top: 0;
@@ -11,11 +9,6 @@
     display: flex;
     z-index: 1001;
     
-
-    
-    
-    
-
 }
 
 .brand {
@@ -61,21 +54,17 @@
     max-width: 5px;
     display:inline;
   
-    
-   
-   
-    
-}
+    }
 
 .search{
     margin-top: 3rem;
     
     background-color: #FFFFFF;
-margin-left: 2rem;
+    margin-left: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-       height: 40px;
+    height: 40px;
     width: 240px;
     border-radius: 30px;
     
@@ -146,23 +135,17 @@ box-shadow:5px 5px 20px #e5d8ff;
 
 .social-media-bar {
     
-    
-   
-   position: fixed;
-
-   top: 40%;
-  
- 
-    right: 0;
-
-    transform: translateY(-50%);
+    margin-top: 120px;
+   position: sticky;
+  float: right;
+   bottom: 60%;
     display: flex;
     flex-direction: column;
-    z-index: 1000;
+    
 }
 
 .social-icon {
-    display: block;
+    
     width: 48px;
     height: 45px;
     margin: 1px 0;
@@ -173,12 +156,9 @@ box-shadow:5px 5px 20px #e5d8ff;
     text-decoration: none;
     
     border-radius: 5%;
-    transition: background-color 0.3s;
+   
 }
 
-.social-icon:hover {
-    background-color: #555;
-}
 
 .twitter {
     background-color: #f4f2f2;
@@ -200,13 +180,9 @@ border-radius: 5px;
     border: solid rgb(29, 27, 27);
     border-radius: 5px;
     
-
-
 }
 
     
-
-
 .facebook {
    background-color: #483EFF;
    border: solid black;
@@ -214,7 +190,7 @@ border-radius: 5px;
 }
 
 .container-2{
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 100%;
     height: 300px;
     
@@ -392,3 +368,4 @@ bottom: 20px;
     margin-bottom: 0;
    
   }
+
